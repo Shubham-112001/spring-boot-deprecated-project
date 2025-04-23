@@ -20,6 +20,7 @@ public class DemoController {
     public String commonsExample() {
         // Example of using deprecated Apache Commons features
         String result = StringUtils.capitalize("example");
+        StringUtils.replaceAll(result, ".", "_");
         return "Using deprecated Apache Commons: " + result;
     }
 }
