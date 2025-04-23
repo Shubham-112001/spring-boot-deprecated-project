@@ -9,15 +9,17 @@
     <description>Demo project for Spring Boot with deprecated dependencies</description>
     <properties>
         <java.version>1.8</java.version>
-        <spring.boot.version>2.3.12.RELEASE</spring.boot.version>
-        <commons.version>2.7</commons.version>
-        <spring.security.version>4.2.13.RELEASE</spring.security.version>
+        <spring.boot.version>3.4.4</spring.boot.version>
+        <spring.security.version>3.4.4</spring.security.version>
+        <maven.compiler.source>24</maven.compiler.source>
+        <maven.compiler.target>24</maven.compiler.target>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <version>3.4.4</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -27,11 +29,12 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>${commons.version}</version>
+            <version>3.16.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>3.4.4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
